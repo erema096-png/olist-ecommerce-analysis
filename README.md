@@ -8,7 +8,7 @@ Period: January 2017 – July 2018
 
 View Interactive Tableau Dashboard
 
-⸻
+![Olist E-Commerce Dashboard](dashboard.png)
 
 Project Overview
 
@@ -97,7 +97,6 @@ Canceled orders represented approximately 0.54%, while unavailable orders accoun
 These figures describe order status distribution and do not establish whether deliveries arrived on time.
 
 Tableau Dashboard
-![Olist E-Commerce Dashboard](dashboard.png)
 
 The interactive dashboard includes:
 
