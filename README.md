@@ -47,7 +47,10 @@ December 2017 MoM Growth	−24.8%
 Delivered Orders	97.06%
 
 ## SQL Analysis
+**SQL Queries:**
 
+- [Monthly Order Trends & MoM Growth](sql/monthly_order_analysis.sql)
+- [Order Status Distribution](sql/order_status_analysis.sql)
 ### Monthly Order Trends
 
 Order purchase timestamps were aggregated by calendar month using DATE_TRUNC() and COUNT().
