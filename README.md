@@ -48,11 +48,11 @@ Delivered Orders	97.06%
 
 ## SQL Analysis
 
-Monthly Order Trends
+### Monthly Order Trends
 
 Order purchase timestamps were aggregated by calendar month using DATE_TRUNC() and COUNT().
 
-Month-over-Month Growth
+### Month-over-Month Growth
 
 I used the LAG() window function to retrieve the previous month’s order count and calculate the percentage change.
 
@@ -71,21 +71,21 @@ The SQL analysis demonstrates experience with:
 
 ## Key Findings
 
-1. Order Volume Increased Significantly
+### 1. Order Volume Increased Significantly
 
 The marketplace recorded 800 orders in January 2017 and 6,292 in July 2018, representing approximately a 7.9× increase in recorded monthly order volume.
 
 This comparison describes the change between two selected months, not an average monthly growth rate.
 
-2. November 2017 Was the Peak Month
+### 2. November 2017 Was the Peak Month
 
 November 2017 recorded 7,544 orders, the highest monthly order volume within the analysis period.
 
-3. Monthly Performance Was Not Consistent
+### 3. Monthly Performance Was Not Consistent
 
 Despite the overall increase in order volume, the marketplace experienced fluctuations. For example, December 2017 recorded a 24.8% decline compared with November 2017.
 
-4. Most Orders Had Delivered Status
+### 4. Most Orders Had Delivered Status
 
 Of the 92,580 orders analyzed, 89,860 (97.06%) had a delivered status.
 
