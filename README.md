@@ -1,5 +1,4 @@
-Olist Brazilian E-Commerce | SQL & Tableau Analysis
-
+# Olist Brazilian E-Commerce | SQL & Tableau Analysis
 E-Commerce Performance Analysis | Data Analytics Portfolio Project
 
 Tools: PostgreSQL · DBeaver · Tableau Public · SQL
@@ -8,9 +7,7 @@ Period: January 2017 – July 2018
 
 View Interactive Tableau Dashboard
 
-![Olist E-Commerce Dashboard](dashboard.png)
-
-Project Overview
+## Project Overview
 
 This project analyzes order activity on Olist, a Brazilian e-commerce marketplace, to understand changes in customer order volume over time.
 
@@ -18,7 +15,7 @@ The analysis focuses on monthly order trends, month-over-month (MoM) growth, pea
 
 I used PostgreSQL to explore and aggregate transactional data, validated the results in DBeaver, and built an interactive dashboard in Tableau Public to communicate the findings.
 
-Business Questions
+## Business Questions
 
 The project aims to answer the following questions:
 
@@ -27,7 +24,7 @@ The project aims to answer the following questions:
 3. When did the largest increases and decreases in order volume occur?
 4. What proportion of orders reached the delivered status?
 
-Dataset
+## Dataset
 
 Source: Olist Brazilian E-Commerce Public Dataset
 
@@ -37,7 +34,7 @@ The selected reporting period covers January 1, 2017, through July 31, 2018.
 
 Orders were counted regardless of their fulfillment status, so the results represent recorded order volume rather than completed sales.
 
-Key Performance Indicators
+## Key Performance Indicators
 
 Metric	Result
 Total Orders	92,580
@@ -49,7 +46,7 @@ Order Volume Increase	7.9×
 December 2017 MoM Growth	−24.8%
 Delivered Orders	97.06%
 
-SQL Analysis
+## SQL Analysis
 
 Monthly Order Trends
 
@@ -72,7 +69,7 @@ The SQL analysis demonstrates experience with:
 * Percentage calculations
 * Data validation
 
-Key Findings
+## Key Findings
 
 1. Order Volume Increased Significantly
 
@@ -96,7 +93,9 @@ Canceled orders represented approximately 0.54%, while unavailable orders accoun
 
 These figures describe order status distribution and do not establish whether deliveries arrived on time.
 
-Tableau Dashboard
+## Tableau Dashboard
+
+![Olist E-Commerce Dashboard](dashboard.png)
 
 The interactive dashboard includes:
 
@@ -109,7 +108,7 @@ The interactive dashboard includes:
 
 Explore the Interactive Dashboard
 
-Data Validation & Limitations
+## Data Validation & Limitations
 
 Before finalizing the analysis, I checked monthly totals, order statuses, and date coverage.
 
@@ -121,11 +120,11 @@ Several limitations should be considered:
 * The dataset alone does not establish the causes of monthly fluctuations.
 * Delivered status does not necessarily mean that an order arrived on time.
 
-Future Improvements
+## Future Improvements
 
 Further analysis could investigate delivery delays, customer review scores, geographic performance, revenue, and product categories.
 
-Conclusion
+## Conclusion
 
 This project demonstrates an end-to-end analytics workflow, from SQL-based data exploration and metric validation to interactive Tableau visualization.
 
